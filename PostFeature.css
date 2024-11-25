@@ -1,0 +1,30 @@
+/* .post-feature-container - Flex container for the feature */
+.post-feature-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+/* .code-editor - Code editor styling */
+.code-editor {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff; /* Added background color for better contrast */
+}
+
+/* .markdown-preview - Markdown preview styling */
+.markdown-preview {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for subtle depth */
+}

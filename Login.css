@@ -1,0 +1,109 @@
+/* .body1 - Full page background */
+.body1 {
+  background-image: url('./h.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* .login - Login container */
+.login {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+  border-radius: 10px;
+  padding: 2rem;
+  width: 400px; /* Adjust the width as desired */
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content within the login container */
+}
+
+/* Heading within the login container */
+.login h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+/* Alert box styling */
+.alert {
+  background-color: #ffcccc; /* Light red background */
+  color: #ff0000; /* Red text color */
+  padding: 0.75rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Label styling for form inputs */
+label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+/* Input field styling */
+.Harsh {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem; /* Added margin for spacing between inputs */
+}
+
+/* Button styling */
+.button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #00cccc; /* Light cyan background */
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Disabled button state */
+.button:disabled {
+  background-color: #cccccc; /* Greyed out background */
+  cursor: not-allowed;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #009999; /* Darker cyan on hover */
+}
+
+/* Account section text */
+.account {
+  margin-top: 1rem;
+  color: #333333;
+}
+
+/* Account link styling */
+.account a {
+  color: #00cccc; /* Cyan color for links */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Account link hover effect */
+.account a:hover {
+  text-decoration: underline;
+}

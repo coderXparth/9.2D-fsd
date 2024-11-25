@@ -1,0 +1,32 @@
+/* PaymentPage.css */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.payment-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #932828;
+    border-radius: 8px;
+    background-color: #913535;
+}
+
+.payment-form h3 {
+    color: #333;
+    text-align: center;
+}
+
+.payment-form .card-element {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.payment-form button {
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,92 @@
+/* .pricing-page - Container for the entire pricing page */
+.pricing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+/* .pricing-title - Styling for the title of the pricing page */
+.pricing-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+    text-align: center; /* Ensures the title is centered */
+}
+
+/* .plan-card - Styling for individual pricing plan cards */
+.plan-card {
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for shadow */
+}
+
+/* Hover effect for plan card */
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover for depth */
+}
+
+/* Plan card title */
+.plan-card h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Description text within plan cards */
+.plan-card p {
+    font-size: 1em;
+    color: #666;
+    margin: 15px 0;
+}
+
+/* .select-button - General button styling */
+.select-button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Hover effect for select button */
+.select-button:hover {
+    opacity: 0.9;
+}
+
+/* Individual button styles for different plans */
+.select-button.free-button {
+    background-color: #4caf50; /* Green for Free plan */
+    color: white;
+}
+
+.select-button.premium-button {
+    background-color: #007bff; /* Blue for Premium plan */
+    color: white;
+}
+
+.select-button.gold-button {
+    background-color: #ffb400; /* Gold for Gold plan */
+    color: white;
+}
+
+/* .plan-card-container - Flex container for the plan cards */
+.plan-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center; /* Center the plan cards */
+}
